@@ -4,6 +4,11 @@ import * as S from './HomeQuote.styles';
 export const HomeQuote: React.FC = () => {
   return (
     <S.HomeQuote>
+      <S.Wrapper>
+        <S.QuoteText>
+        Let me code where the mountain meets the sea
+        </S.QuoteText>
+      </S.Wrapper>
       <S.OceanBird />
     </S.HomeQuote>
 

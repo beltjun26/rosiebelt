@@ -7,10 +7,27 @@ export const HomeQuote = styled.div`
   height: 140vh;
   background: linear-gradient(180deg, #EFEFEF 15.1%, rgba(111, 151, 181, 0.6) 59.37%, #6F97B5 100%);
 `
+
+export const Wrapper = styled.div`
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const OceanBird = styled(OceanBirdSvg)`
   position: absolute;
-  bottom: 5em;
+  bottom: 15em;
   left: 50%;
   /* transform: translate(-50%, -50%); */
   transform: translateX(-50%);
+`
+
+export const QuoteText = styled.h3`
+  color: white;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0.12em;
+  text-align: center;
 `

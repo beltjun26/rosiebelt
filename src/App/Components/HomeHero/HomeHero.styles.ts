@@ -5,12 +5,16 @@ import { Parallax } from 'react-scroll-parallax';
 
 
 export const HomeHero = styled.div`
+  background-color: rgba(239, 239, 239, 1);
+`
 
+export const Wrapper = styled.div`
+  transform-style: preserve-3d;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* min-height: 100%; */
   height: 100vh;
-  background-color: rgba(239, 239, 239, 1);
 `
 
 export const HeaderContainer = styled.div`
@@ -19,7 +23,6 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform-style: preserve-3d;
 `
 
 export const SubHeaderText = styled.div`
@@ -46,16 +49,26 @@ export const Occupation = styled.div`
   line-height: 28px;
   letter-spacing: 0.12em;
 `
-export const MountainSingle = styled(MountainSingleSvg)`
+
+export const ParallaxMountainSingle = styled(Parallax)`
+  width: 76em;
   position: absolute;
-  left: -50em;
+  left: -69em;
   bottom: -30em;
-  overflow: visible;
+`
+
+export const ParallaxMountainRange = styled(Parallax)`
+  width: 110em;
+  position: absolute;
+  right: -65em;
+  bottom: -45em;
+`
+export const MountainSingle = styled(MountainSingleSvg)`
+  fill: rgba(111, 151, 181, 1);
 `
 
 export const MountainRange = styled(MountainRangeSvg)`
-  position: absolute;
-  right: -70em;
-  bottom: -30em;
+  fill: rgba(111, 151, 181, 1);
   overflow: visible;
 `
+

@@ -5,23 +5,25 @@ import * as S from './HomeHero.styles';
 export const HomeHero: React.FC = () => {
   return (
     <S.HomeHero>
-      <S.HeaderContainer>
-        <S.SubHeaderText>
-          HI I AM
-        </S.SubHeaderText>
-        <S.HeaderText>
-          ROSIEBELT JUN ABISADO
-        </S.HeaderText>
-        <S.Occupation>
-          SOFTWARE ENGINEER
-        </S.Occupation>
-        <Parallax speed={-20}>
-          <S.MountainSingle />
-        </Parallax>
-        <Parallax speed={-22}>
-          <S.MountainRange />
-        </Parallax>
-      </S.HeaderContainer>
+      <S.Wrapper>
+        <S.HeaderContainer>
+          <S.SubHeaderText>
+            HI I AM
+          </S.SubHeaderText>
+          <S.HeaderText>
+            ROSIEBELT JUN ABISADO
+          </S.HeaderText>
+          <S.Occupation>
+            SOFTWARE ENGINEER
+          </S.Occupation>
+          <S.ParallaxMountainSingle speed={-20}>
+            <S.MountainSingle />
+          </S.ParallaxMountainSingle>
+          <S.ParallaxMountainRange speed={-22}>
+            <S.MountainRange />
+          </S.ParallaxMountainRange>
+        </S.HeaderContainer>
+      </S.Wrapper>
   </S.HomeHero>    
   )
 }

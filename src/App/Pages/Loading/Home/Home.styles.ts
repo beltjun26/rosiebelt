@@ -3,13 +3,9 @@ import styled from 'styled-components';
 // import { ReactComponent as MountainRangeSvg } from 'App/Assets/logo/mountainRange.svg';
 
 
-// export const Home = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100vh;
-//   background-color: #E5E5E5;
-// `
+export const Home = styled.div`
+  overflow: hidden;
+`
 
 // export const HeaderContainer = styled.div`
 //   position: relative;
