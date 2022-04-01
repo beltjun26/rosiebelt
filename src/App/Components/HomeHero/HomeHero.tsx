@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 import * as S from './HomeHero.styles';
 
 export const HomeHero: React.FC = () => {
