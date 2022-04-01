@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { ReactComponent as WaveSvg } from 'App/Assets/logo/oceanWave.svg';
+import { ReactComponent as BubbleSvg } from 'App/Assets/logo/bubble.svg';
 import { Parallax } from 'react-scroll-parallax';
 
 export interface TimelineBlockProps {
@@ -144,4 +145,10 @@ export const Wave = styled(WaveSvg).attrs(props => ({
   width: props.width ?? 50,
 }))`
   width: ${props => props.width}em;
-`
+`;
+
+export const Bubble = styled(BubbleSvg).attrs(props => ({
+  width: props.width ?? 50,
+}))`
+  width: ${props => props.width}em;
+`;

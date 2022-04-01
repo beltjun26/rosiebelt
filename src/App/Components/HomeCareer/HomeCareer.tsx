@@ -38,6 +38,21 @@ export const HomeCareer: React.FC = () => {
         <S.WaveContainer bottom={10} left={-5} speed={2}>
           <S.Wave width={18}/>
         </S.WaveContainer>
+        <S.WaveContainer bottom={-12} left={100} speed={2}>
+          <S.Bubble width={10}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-7} left={20} speed={2}>
+          <S.Bubble width={10}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-3} left={40} speed={2}>
+          <S.Bubble width={4}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-18} left={80} speed={2}>
+          <S.Bubble width={4}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-22} left={105} speed={2}>
+          <S.Bubble width={4}/>
+        </S.WaveContainer>
       </S.Ocean>
       <S.Title>
         CAREER
