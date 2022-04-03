@@ -1,5 +1,30 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { ReactComponent as BeltLogoSvg } from 'App/Assets/logo/logo.svg';
+
+ const heartbeat = keyframes`
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+`
+
 
 export const Loading = styled.div`
   /* background-color: blue; */
@@ -9,9 +34,7 @@ radial-gradient(95.6% 95.6% at 51.88% 4.4%, rgba(255, 236, 64, 0.2) 0%, rgba(0, 
 linear-gradient(0deg, #6F97B5, #6F97B5);
   display: flex;
   align-items: center;
-  justify-content: center;
-
-`
+  justify-content: center;`
 
 export const Container = styled.div`
   display: flex;
@@ -22,6 +45,7 @@ export const BeltLogo = styled(BeltLogoSvg)`
   width: 7em;
   height: 7em;
   margin-bottom: 1em;
+  animation: ${heartbeat} 1.5s ease-in-out infinite both;
 `
 
 export const LoadingText = styled.div`
