@@ -120,8 +120,6 @@ const waveAnimation = keyframes`
     100% { transform: translateY(-10px); }
 `;
 
-// const randomStart = Math.floor(Math.random() * 10);
-
 export interface WaveContainerProps {
   top?: number,
   left?: number,
@@ -141,10 +139,13 @@ export const WaveContainer = styled(Parallax)<WaveContainerProps>`
 export interface WaveProps {
   width: number;
 }
+
 export const Wave = styled(WaveSvg).attrs(props => ({
   width: props.width ?? 50,
 }))`
   width: ${props => props.width}em;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
 `;
 
 export const Bubble = styled(BubbleSvg).attrs(props => ({

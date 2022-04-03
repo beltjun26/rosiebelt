@@ -1,7 +1,30 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { ReactComponent as MountainSingleSvg } from 'App/Assets/logo/mountainSingle.svg';
 import { ReactComponent as MountainRangeSvg } from 'App/Assets/logo/mountainRange.svg';
 import { Parallax } from 'react-scroll-parallax';
+
+const fadeInTop = keyframes`
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`
+
+
+ const fadeInBottom =  keyframes`
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`
 
 
 export const HomeHero = styled.div`
@@ -32,6 +55,8 @@ export const SubHeaderText = styled.div`
   line-height: 28px;
   letter-spacing: 0.12em;
   margin-bottom: 1em;
+  animation: ${fadeInTop} 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+
 `
 
 export const HeaderText = styled.div`
@@ -41,6 +66,7 @@ export const HeaderText = styled.div`
   line-height: 1em;
   letter-spacing: 0.12em;
   margin-bottom: .3em;
+  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
 `
 
 export const Occupation = styled.div`
@@ -48,6 +74,7 @@ export const Occupation = styled.div`
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.12em;
+  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.3s both;
 `
 
 export const ParallaxMountainSingle = styled(Parallax)`
@@ -55,6 +82,8 @@ export const ParallaxMountainSingle = styled(Parallax)`
   position: absolute;
   left: -69em;
   bottom: -30em;
+  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .1s both;
+
 `
 
 export const ParallaxMountainRange = styled(Parallax)`
@@ -62,6 +91,8 @@ export const ParallaxMountainRange = styled(Parallax)`
   position: absolute;
   right: -65em;
   bottom: -45em;
+  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .3s both;
+
 `
 export const MountainSingle = styled(MountainSingleSvg)`
   fill: rgba(111, 151, 181, 1);

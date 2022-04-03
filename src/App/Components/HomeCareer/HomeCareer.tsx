@@ -8,14 +8,20 @@ export const HomeCareer: React.FC = () => {
   return (
     <S.HomeCareer>
       <S.Ocean>
-        <S.WaveContainer bottom={3} speed={10}>
-          <S.Wave width={45}/>
+      <S.WaveContainer bottom={-3} left={40} speed={2}>
+          <S.Bubble width={4}/>
         </S.WaveContainer>
-        <S.WaveContainer bottom={0} left={37} speed={12}>
-          <S.Wave width={55}/>
+        <S.WaveContainer bottom={-18} left={80} speed={2}>
+          <S.Bubble width={4}/>
         </S.WaveContainer>
-        <S.WaveContainer bottom={4} left={85} speed={10}>
-          <S.Wave width={45}/>
+        <S.WaveContainer bottom={-22} left={105} speed={2}>
+          <S.Bubble width={4}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-12} left={100} speed={8}>
+          <S.Bubble width={10}/>
+        </S.WaveContainer>
+        <S.WaveContainer bottom={-7} left={20} speed={8}>
+          <S.Bubble width={10}/>
         </S.WaveContainer>
         <S.WaveContainer bottom={10} left={14} speed={6}>
           <S.Wave width={24}/>
@@ -38,20 +44,15 @@ export const HomeCareer: React.FC = () => {
         <S.WaveContainer bottom={10} left={-5} speed={2}>
           <S.Wave width={18}/>
         </S.WaveContainer>
-        <S.WaveContainer bottom={-12} left={100} speed={2}>
-          <S.Bubble width={10}/>
+
+        <S.WaveContainer bottom={4} left={85} speed={10}>
+          <S.Wave width={45}/>
         </S.WaveContainer>
-        <S.WaveContainer bottom={-7} left={20} speed={2}>
-          <S.Bubble width={10}/>
+        <S.WaveContainer bottom={3} speed={10}>
+          <S.Wave width={45}/>
         </S.WaveContainer>
-        <S.WaveContainer bottom={-3} left={40} speed={2}>
-          <S.Bubble width={4}/>
-        </S.WaveContainer>
-        <S.WaveContainer bottom={-18} left={80} speed={2}>
-          <S.Bubble width={4}/>
-        </S.WaveContainer>
-        <S.WaveContainer bottom={-22} left={105} speed={2}>
-          <S.Bubble width={4}/>
+        <S.WaveContainer bottom={0} left={37} speed={12}>
+          <S.Wave width={55}/>
         </S.WaveContainer>
       </S.Ocean>
       <S.Title>
