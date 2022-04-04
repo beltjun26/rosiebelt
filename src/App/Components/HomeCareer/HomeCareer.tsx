@@ -69,10 +69,10 @@ export const HomeCareer: React.FC = () => {
               UNIVERSITY OF THE PHILIPPINES
             </S.ContentTitle>
             <S.ContentSubTitle>
-              STUDENT
+              BS IN COMPUTER SCIENCE
             </S.ContentSubTitle>
             <S.ContentText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+              Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
             </S.ContentText>
           </S.TimelineContent>
         </S.TimelineBlock>
@@ -89,7 +89,7 @@ export const HomeCareer: React.FC = () => {
               BIOINFORMATICS
             </S.ContentSubTitle>
             <S.ContentText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+              Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
             </S.ContentText>
           </S.TimelineContent>
         </S.TimelineBlock>
@@ -106,7 +106,29 @@ export const HomeCareer: React.FC = () => {
               SOFTWARE ENGINEER
             </S.ContentSubTitle>
             <S.ContentText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+              Mainly worked on two main Products. Freelancer.com and Freightlancer.com.
+              <p>
+                * Changed the whole payment calculation for the commission model of Freightlancer.com.
+              </p>
+              <p>
+                * Rebranded Channel40 to Freightlancer.com
+              </p>
+              <p>
+                * Migrated the old stack of Freelancer.com to Angular
+              </p>
+              <p>
+                * Optimized the location tracking and implemented the logic to use Google service in looking for the road shortest path.
+              </p>
+              <p>
+                * Developed dynamic Custom fields implementation for Enterprise Clients
+              </p>
+              <p>
+                * Integrated 3rd party payment service (Assembly Payments, now called Zai)
+              </p>
+              <p>
+              * Integrated SMS feature (TWILIO) to our services
+              </p>
+            
             </S.ContentText>
           </S.TimelineContent>
         </S.TimelineBlock>

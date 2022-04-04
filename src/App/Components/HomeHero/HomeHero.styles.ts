@@ -26,6 +26,32 @@ const fadeInTop = keyframes`
   }
 `
 
+const tiltInRight = keyframes`
+  0% {
+    -webkit-transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+            transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+            transform: rotateX(0deg) translateX(0) skewX(0deg);
+    opacity: 1;
+  }
+`
+
+const tiltInLeft = keyframes`
+  0% {
+    -webkit-transform: rotateX(30deg) translateX(-300px) skewX(30deg);
+            transform: rotateX(30deg) translateX(-300px) skewX(30deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+            transform: rotateX(0deg) translateX(0) skewX(0deg);
+    opacity: 1;
+  }
+`
+
 
 export const HomeHero = styled.div`
   background-color: rgba(239, 239, 239, 1);
@@ -66,7 +92,7 @@ export const HeaderText = styled.div`
   line-height: 1em;
   letter-spacing: 0.12em;
   margin-bottom: .3em;
-  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
 `
 
 export const Occupation = styled.div`
@@ -74,7 +100,36 @@ export const Occupation = styled.div`
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.12em;
-  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.3s both;
+  display: flex;
+  align-items: center;
+  animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+
+  &:after {
+    border-radius: 40%;
+    content: "";
+    width: 3em;
+    height: .14em;
+    content: "";
+    flex-grow: 1;
+    height: $line-height;
+    background-color: rgba(111, 151, 181, 1);
+    animation: ${tiltInRight} 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: 2.4s;
+  }
+
+  &:before {
+    border-radius: 40%;
+    content: "";
+    width: 3em;
+    height: .14em;
+    content: "";
+    flex-grow: 1;
+    height: $line-height;
+    background-color: rgba(111, 151, 181, 1);
+    animation: ${tiltInLeft} 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;    
+    animation-delay: 2.4s;
+  }
+  
 `
 
 export const ParallaxMountainSingle = styled(Parallax)`
@@ -82,7 +137,6 @@ export const ParallaxMountainSingle = styled(Parallax)`
   position: absolute;
   left: -69em;
   bottom: -30em;
-  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .1s both;
 
 `
 
@@ -91,15 +145,17 @@ export const ParallaxMountainRange = styled(Parallax)`
   position: absolute;
   right: -65em;
   bottom: -45em;
-  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .3s both;
 
 `
 export const MountainSingle = styled(MountainSingleSvg)`
   fill: rgba(111, 151, 181, 1);
+  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .1s both;
+
 `
 
 export const MountainRange = styled(MountainRangeSvg)`
   fill: rgba(111, 151, 181, 1);
   overflow: visible;
+  animation: ${fadeInBottom} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) .3s both;
 `
 
