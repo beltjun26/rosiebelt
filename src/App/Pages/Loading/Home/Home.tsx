@@ -1,3 +1,4 @@
+import { HomeAboutMe } from 'App/Components/HomeAboutMe/HomeAboutMe';
 import { HomeCareer } from 'App/Components/HomeCareer/HomeCareer';
 import { HomeHero } from 'App/Components/HomeHero/HomeHero';
 import { HomeQuote } from 'App/Components/HomeQuote/HomeQuote';
@@ -12,6 +13,7 @@ export const Home: React.FC = () => {
       <HomeQuote />
       <HomeCareer />
       <HomeTech />
+      <HomeAboutMe />
     </S.Home>
   )
 } 

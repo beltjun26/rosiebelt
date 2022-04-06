@@ -75,10 +75,10 @@ export const HeaderContainer = styled.div`
 `
 
 export const SubHeaderText = styled.div`
-  font-size: 28px;
+  font-size: 1.7em;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.4em;
   letter-spacing: 0.12em;
   margin-bottom: 1em;
   animation: ${fadeInTop} 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
@@ -96,9 +96,9 @@ export const HeaderText = styled.div`
 `
 
 export const Occupation = styled.div`
-  font-size: 28px;
+  font-size: 1.7em;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.4em;
   letter-spacing: 0.12em;
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@ export const ParallaxMountainRange = styled(Parallax)`
   width: 110em;
   position: absolute;
   right: -65em;
-  bottom: -45em;
+  bottom: -53em;
 
 `
 export const MountainSingle = styled(MountainSingleSvg)`

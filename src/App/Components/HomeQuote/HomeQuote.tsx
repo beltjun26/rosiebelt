@@ -8,8 +8,8 @@ export const HomeQuote: React.FC = () => {
         <S.QuoteText>
         Let me code where the mountain meets the sea
         </S.QuoteText>
+        <S.OceanBird />
       </S.Wrapper>
-      <S.OceanBird />
     </S.HomeQuote>
 
   )

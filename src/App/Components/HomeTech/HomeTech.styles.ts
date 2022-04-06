@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { ReactComponent as CloudsSvg } from 'App/Assets/logo/cloudMultiple.svg';
 import { ReactComponent as WindyCloudSvg } from 'App/Assets/logo/cloudWind.svg';
 import { ReactComponent as HouseWithLine } from 'App/Assets/logo/houseWithLine.svg';
@@ -13,17 +13,21 @@ import { ReactComponent as GraphQlSvg } from 'App/Assets/techLogo/graphQl.svg';
 
 export const HomeTech = styled.div`
   /* height: 100vh; */
-  background: linear-gradient(180deg, #6F97B5 0%, rgba(118, 155, 182, 0.916667) 24.48%, rgba(141, 167, 186, 0.644828) 67.19%, rgba(196, 196, 196, 0) 100%);
   padding-bottom: 14em;
+  background-color: rgba(239, 239, 239, 1);
+`
+
+export const HomeTechContainer = styled.div`
+  background: linear-gradient(180deg, #6F97B5 0%, rgba(118, 155, 182, 0.916667) 24.48%, rgba(141, 167, 186, 0.644828) 67.19%, rgba(196, 196, 196, 0) 100%);
+
 `
 
 export const Header = styled.h1`
   color: white;
   text-align: center;
   margin-bottom: 5em;
-  font-size: 36px;
+  font-size: 2.3em;
   font-weight: 400;
-  line-height: 36px;
   letter-spacing: 0.12em;
 
 `
@@ -31,7 +35,7 @@ export const Header = styled.h1`
 export const Sky = styled.div`
   /* height 100em; */
   height: 14em;
-  width: 2000px;
+  width: 120em;
   margin: 0 auto;
   position: relative;
   margin-bottom: 15em;
@@ -59,7 +63,7 @@ export const BalloonsContainer = styled.div`
   width: 34em;
   height: 50em;
   position: relative;
-  font-size: 16px;
+  font-size: 1em;
   margin: 0 auto;
 `;
 

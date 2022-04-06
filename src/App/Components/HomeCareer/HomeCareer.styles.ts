@@ -17,8 +17,8 @@ export const HomeCareer = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 2.3em;
+  line-height: 2.3;
   letter-spacing: 0.12em;
   text-align: center;
   margin-bottom: 1em;
@@ -30,6 +30,11 @@ export const TimelineBlock = styled.div<TimelineBlockProps>`
   display: flex;
   text-align: ${props => props.side === 'right' ? 'left' : 'right'};
   flex-direction: ${props => props.side === 'right' ? 'row-reverse' : 'row'};
+
+  @media (max-width: 768px) {
+    text-align: left;
+    flex-direction: row;
+  }
 `;
 
 export const TimelineContainer = styled.div`
@@ -50,6 +55,12 @@ export const TimelineContainer = styled.div`
     background: white;
     left: 50%;
     margin-left: -2px;
+  
+    @media (max-width: 768px) {
+      left: 2.1em;
+      width: 2.4px;
+
+    }
   }
 `;
 
@@ -59,38 +70,40 @@ export const TimelineContent = styled.div`
   /* display: flex; */
   width: 45%;
   margin-bottom: 8em ;
+
+  @media (max-width: 768px) {
+    margin-top: 1em;
+    margin-left: 7em;
+    width: 100%;
+  }
 `;
 
 export const ContentDate = styled.div`
-  font-size: 32px;
+  font-size: 2em;
   font-weight: 400;
-  line-height: 32px;
   letter-spacing: 0.12em;
   margin-bottom: 1em;
 `;
 
 export const ContentTitle = styled.div`
-  font-size: 24px;
+  font-size: 1.6em;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: 0.12em;
   margin-bottom: .3em;
 
 `;
 
 export const ContentSubTitle = styled.div`
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.12em;
   margin-bottom: 1.3em;
 `;
 
 
 export const ContentText = styled.div`
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.12em;
 `;
 
@@ -101,9 +114,14 @@ export const TimelineImg = styled.img`
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 64px;
+  width: 4em;
   /* height: 64px; */
-  box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 .3em #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+
+  @media (max-width: 768px) {
+    /* right: none; */
+    margin: 0;
+  }
 `
 
 export const Ocean = styled.div`
