@@ -105,6 +105,7 @@ export const Occupation = styled.div`
   animation: ${fadeInTop} 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
 
   &:after {
+    margin-left: .5em;
     border-radius: 40%;
     content: "";
     width: 3em;
@@ -118,6 +119,7 @@ export const Occupation = styled.div`
   }
 
   &:before {
+    margin-right: .5em;
     border-radius: 40%;
     content: "";
     width: 3em;

@@ -1,0 +1,52 @@
+{
+  "techs": {
+    "angular": {
+      "name": "Angular",
+      "content": "sfsdfdsfsdf"
+    },
+    "react": {
+      "name": "React",
+      "content": "sdfsdfsdfsdf"
+    },
+    "mysql": {
+      "name": "MySQL / SQL",
+      "content": "sdfsdfsdfsdf"
+    },
+    "gtm": {
+      "name": "Google Tag Manager",
+      "content": "sdfsdfsdfsdf"
+    },
+    "apollo": {
+      "name": "Apollo GraphQL",
+      "content": "sdfsdfsdfsdf \n sdfsdfdsf sf sdfsdf dsfsd \n sdfsdfsdf \n sdfsdfdsf \n sdfsdf sdfsd fsdf sdfsdf \n sdfsdfdsfsdfsdf \ns dfsdfdf \nsdfsdf"
+    },
+    "git": {
+      "name": "Git",
+      "content": "sdfsdfsdfsdf"
+    },
+    "github": {
+      "name": "Github",
+      "content": "sdfsdfsdfsdf"
+    },
+    "ga": {
+      "name": "Google Analytics",
+      "content": "sdfsdfsdfsdf"
+    },
+    "graphql": {
+      "name": "GraphQL",
+      "content": "sdfsdfsdfsdf"
+    },
+    "phab": {
+      "name": "Phabricator",
+      "content": "sdfsdfsdfsdf"
+    },
+    "php": {
+      "name": "PHP",
+      "content": "sdfsdfsdfsdf"
+    },
+    "twilio": {
+      "name": "Twilio",
+      "content": "sdfsdfsdfsdf"
+    }
+  }
+}

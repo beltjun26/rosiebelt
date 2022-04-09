@@ -17,7 +17,7 @@ export const Header = styled.h1`
   margin: 0;
   margin-bottom: 2em;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.3em;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0.12em;
@@ -25,11 +25,12 @@ export const Header = styled.h1`
 `
 
 export const HeaderText = styled.p`
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.12em;
   text-align: center;
+  margin: 0 1em;
 `
 
 export const Carousel = styled.div`

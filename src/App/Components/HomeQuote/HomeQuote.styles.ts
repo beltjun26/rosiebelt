@@ -11,18 +11,13 @@ export const Wrapper = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   position: relative;
 `;
 
 export const OceanBird = styled(OceanBirdSvg)`
   width: 32em;
-  /* position: absolute; */
-  /* bottom: 15em; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* transform: translateX(-50%); */
 `
 
 export const QuoteText = styled.h3`

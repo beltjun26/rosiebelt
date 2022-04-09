@@ -3,6 +3,7 @@ import * as S from './HomeCareer.styles';
 import upLogo from 'App/Assets/img/UPLogo.png';
 import tuariaLogo from 'App/Assets/img/tauriaLogo.png';
 import freelancerLogo from 'App/Assets/img/freelancerLogo.png';
+import { TimelineBlock } from '../HomeHero/TimelineBlock/TimelineBlock';
 
 export const HomeCareer: React.FC = () => {
   return (
@@ -59,54 +60,30 @@ export const HomeCareer: React.FC = () => {
         CAREER
       </S.Title>
 			<S.TimelineContainer>
-        <S.TimelineBlock>
-          <S.TimelineImg src={upLogo} alt="up"/>
-          <S.TimelineContent>
-            <S.ContentDate>
-              2014
-            </S.ContentDate>
-            <S.ContentTitle>
-              UNIVERSITY OF THE PHILIPPINES
-            </S.ContentTitle>
-            <S.ContentSubTitle>
-              BS IN COMPUTER SCIENCE
-            </S.ContentSubTitle>
-            <S.ContentText>
-              Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
-            </S.ContentText>
-          </S.TimelineContent>
-        </S.TimelineBlock>
-        <S.TimelineBlock side="right">
-          <S.TimelineImg src={upLogo} alt="up"/>
-          <S.TimelineContent>
-            <S.ContentDate>
-              2017
-            </S.ContentDate>
-            <S.ContentTitle>
-              PHILIPPINE GENOME CENTER
-            </S.ContentTitle>
-            <S.ContentSubTitle>
-              BIOINFORMATICS
-            </S.ContentSubTitle>
-            <S.ContentText>
-              Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
-            </S.ContentText>
-          </S.TimelineContent>
-        </S.TimelineBlock>
-        <S.TimelineBlock>
-          <S.TimelineImg src={freelancerLogo} alt="up"/>
-          <S.TimelineContent>
-            <S.ContentDate>
-              2018
-            </S.ContentDate>
-            <S.ContentTitle>
-              FREELANCER.COM
-            </S.ContentTitle>
-            <S.ContentSubTitle>
-              SOFTWARE ENGINEER
-            </S.ContentSubTitle>
-            <S.ContentText>
-              Mainly worked on two main Products. Freelancer.com and Freightlancer.com.
+        <TimelineBlock
+          date='2014'
+          title='UNIVERSITY OF THE PHILIPPINES'
+          subTitle='BS IN COMPUTER SCIENCE'
+          img={upLogo}
+        >
+          Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
+        </TimelineBlock>
+        <TimelineBlock
+          date='2017'
+          title='PHILIPPINE GENOME CENTER'
+          subTitle='BIOINFORMATICS'
+          img={upLogo}
+          side="right"
+        >
+          Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
+        </TimelineBlock>
+        <TimelineBlock
+          date='2018'
+          title='FREELANCER.COM'
+          subTitle='SOFTWARE ENGINEER'
+          img={freelancerLogo}
+        >
+          Mainly worked on two main Products. Freelancer.com and Freightlancer.com.
               <p>
                 * Changed the whole payment calculation for the commission model of Freightlancer.com.
               </p>
@@ -129,26 +106,16 @@ export const HomeCareer: React.FC = () => {
               * Integrated SMS feature (TWILIO) to our services
               </p>
             
-            </S.ContentText>
-          </S.TimelineContent>
-        </S.TimelineBlock>
-        <S.TimelineBlock side='right'>
-          <S.TimelineImg src={tuariaLogo} alt="up"/>
-          <S.TimelineContent>
-            <S.ContentDate>
-              2021
-            </S.ContentDate>
-            <S.ContentTitle>
-              TAURIA
-            </S.ContentTitle>
-            <S.ContentSubTitle>
-              SOFTWARE ENGINEER
-            </S.ContentSubTitle>
-            <S.ContentText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
-            </S.ContentText>
-          </S.TimelineContent>
-        </S.TimelineBlock>
+        </TimelineBlock>
+        <TimelineBlock
+          date='2021'
+          title='TAURIA'
+          subTitle='SOFTWARE ENGINEER'
+          img={tuariaLogo}
+          side="right"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+        </TimelineBlock>
 			</S.TimelineContainer>
     </S.HomeCareer>
   )

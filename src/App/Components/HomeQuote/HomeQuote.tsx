@@ -6,7 +6,7 @@ export const HomeQuote: React.FC = () => {
     <S.HomeQuote>
       <S.Wrapper>
         <S.QuoteText>
-        Let me code where the mountain meets the sea
+          Let me code where the mountain meets the sea
         </S.QuoteText>
         <S.OceanBird />
       </S.Wrapper>
