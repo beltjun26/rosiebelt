@@ -2,51 +2,51 @@
   "techs": {
     "angular": {
       "name": "Angular",
-      "content": "sfsdfdsfsdf"
+      "content": "This part is a work in progress"
     },
     "react": {
       "name": "React",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "mysql": {
       "name": "MySQL / SQL",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "gtm": {
       "name": "Google Tag Manager",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "apollo": {
       "name": "Apollo GraphQL",
-      "content": "sdfsdfsdfsdf \n sdfsdfdsf sf sdfsdf dsfsd \n sdfsdfsdf \n sdfsdfdsf \n sdfsdf sdfsd fsdf sdfsdf \n sdfsdfdsfsdfsdf \ns dfsdfdf \nsdfsdf"
+      "content": "This part is a work in progress"
     },
     "git": {
       "name": "Git",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "github": {
       "name": "Github",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "ga": {
       "name": "Google Analytics",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "graphql": {
       "name": "GraphQL",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "phab": {
       "name": "Phabricator",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "php": {
       "name": "PHP",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     },
     "twilio": {
       "name": "Twilio",
-      "content": "sdfsdfsdfsdf"
+      "content": "This part is a work in progress"
     }
   }
 }

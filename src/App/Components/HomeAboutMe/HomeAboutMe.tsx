@@ -17,7 +17,8 @@ export const HomeAboutMe: React.FC = () => {
           ABOUT ME
         </S.Header>
         <S.HeaderText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+          I really love traveling. As a software engineer I always face my monitory almost 10 hours a day. To keep my sanity make sure to do hiking, biking and spending the
+          afternoon watching the sunset.
         </S.HeaderText>
       </S.HeaderContainer>
       <S.Carousel>

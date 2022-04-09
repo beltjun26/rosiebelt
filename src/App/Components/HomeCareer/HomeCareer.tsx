@@ -85,25 +85,25 @@ export const HomeCareer: React.FC = () => {
         >
           Mainly worked on two main Products. Freelancer.com and Freightlancer.com.
               <p>
-                * Changed the whole payment calculation for the commission model of Freightlancer.com.
+                Changed the whole payment calculation for the commission model of Freightlancer.com.
               </p>
               <p>
-                * Rebranded Channel40 to Freightlancer.com
+                Rebranded Channel40 to Freightlancer.com
               </p>
               <p>
-                * Migrated the old stack of Freelancer.com to Angular
+                Migrated the old stack of Freelancer.com to Angular
               </p>
               <p>
-                * Optimized the location tracking and implemented the logic to use Google service in looking for the road shortest path.
+                Optimized the location tracking and implemented the logic to use Google service in looking for the road shortest path.
               </p>
               <p>
-                * Developed dynamic Custom fields implementation for Enterprise Clients
+                Developed dynamic Custom fields implementation for Enterprise Clients
               </p>
               <p>
-                * Integrated 3rd party payment service (Assembly Payments, now called Zai)
+                Integrated 3rd party payment service (Assembly Payments, now called Zai)
               </p>
               <p>
-              * Integrated SMS feature (TWILIO) to our services
+                Integrated SMS feature (TWILIO) to our services
               </p>
             
         </TimelineBlock>
@@ -114,7 +114,16 @@ export const HomeCareer: React.FC = () => {
           img={tuariaLogo}
           side="right"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+          <p>
+            Developed communication tools that focus on security and privacy
+          </p>
+          <p>
+            Built the analytic system from scratch using Google Tag Manager and Google Analytics
+          </p>
+          <p>
+            Implemented and developed React Components and the integration with the backend which runs in Apollo GraphQL
+          </p>
+
         </TimelineBlock>
 			</S.TimelineContainer>
     </S.HomeCareer>

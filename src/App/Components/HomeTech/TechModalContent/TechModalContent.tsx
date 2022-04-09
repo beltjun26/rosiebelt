@@ -1,5 +1,4 @@
 import React from 'react';
-import { LogoAngular } from '../HomeTech.styles';
 import * as S from './TechModalContent.styles';
 
 export interface TechModalContentProps {
