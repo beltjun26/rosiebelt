@@ -18,7 +18,7 @@ export const HomeHero: React.FC = () => {
           <S.ParallaxMountainSingle speed={-20}>
             <S.MountainSingle />
           </S.ParallaxMountainSingle>
-          <S.ParallaxMountainRange speed={-22}>
+          <S.ParallaxMountainRange speed={-20}>
             <S.MountainRange />
           </S.ParallaxMountainRange>
         </S.HeaderContainer>
