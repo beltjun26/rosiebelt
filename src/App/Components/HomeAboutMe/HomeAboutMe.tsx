@@ -27,7 +27,6 @@ export const HomeAboutMe: React.FC = () => {
         <S.CarouselItem onClick={() => setCarouselItem('img2')} active={carouselItem === 'img2'} backgroundImg={BikingImg} >
         </S.CarouselItem>
         <S.CarouselItem onClick={() => setCarouselItem('img3')} active={carouselItem === 'img3'} backgroundImg={SunsetImg}>
-         {/* <S.CarouselImg src={BikingImg} /> */}
         </S.CarouselItem>
       </S.Carousel>
     </S.HomeAboutMe>

@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 export const HomeAboutMe = styled.div`
   background-color: rgba(239, 239, 239, 1);
   min-height: 100vh;
+  padding-bottom: 9em;
 `;
 
 export const HeaderContainer = styled.div`
