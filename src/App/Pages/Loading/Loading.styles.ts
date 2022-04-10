@@ -42,8 +42,8 @@ export const Container = styled.div`
 `
 
 export const BeltLogo = styled(BeltLogoSvg)`
-  width: 7em;
-  height: 7em;
+  width: 5em;
+  height: 5em;
   margin-bottom: 1em;
   animation: ${heartbeat} 1.5s ease-in-out infinite both;
 `

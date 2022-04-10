@@ -47,4 +47,5 @@ export const TimelineBlockViewPort: React.FC<TimelineBlockProps> = ({
   )
 }
 
-export const TimelineBlock = handleViewport(TimelineBlockViewPort)
+// if 50% of the component is visible the animation will trigger
+export const TimelineBlock = handleViewport(TimelineBlockViewPort, {threshold: .5});

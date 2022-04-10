@@ -67,9 +67,11 @@ export const TimelineContent = styled.div`
   /* flex-direction: column; */
   /* display: flex; */
   width: 45%;
-  margin-bottom: 8em ;
+  margin-bottom: 8em;
+  visibility: hidden;
 
   .animate > & {
+    visibility: visible;
     animation: ${textFocusIn} 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) .4s both;
   }
 
