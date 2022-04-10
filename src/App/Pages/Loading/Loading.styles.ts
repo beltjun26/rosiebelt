@@ -49,7 +49,7 @@ export const BeltLogo = styled(BeltLogoSvg)`
 `
 
 export const LoadingText = styled.div`
-  font-size: 1.3em;
+  font-size: 1.0em;
   font-weight: 600;
   text-align: center;
   color: white;

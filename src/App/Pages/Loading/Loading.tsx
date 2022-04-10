@@ -8,7 +8,7 @@ export const Loading: React.FC = () => {
       <S.Container>
         <S.BeltLogo />
         <S.LoadingText >
-          LOADING...
+          LOADING
         </S.LoadingText>
       </S.Container>
     </S.Loading>
