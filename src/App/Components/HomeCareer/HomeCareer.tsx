@@ -61,21 +61,22 @@ export const HomeCareer: React.FC = () => {
       </S.Title>
 			<S.TimelineContainer>
         <TimelineBlock
-          date='2014'
-          title='UNIVERSITY OF THE PHILIPPINES'
-          subTitle='BS IN COMPUTER SCIENCE'
-          img={upLogo}
-        >
-          Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
-        </TimelineBlock>
-        <TimelineBlock
-          date='2017'
-          title='PHILIPPINE GENOME CENTER'
-          subTitle='BIOINFORMATICS'
-          img={upLogo}
+          date='2021'
+          title='TAURIA'
+          subTitle='SOFTWARE ENGINEER'
+          img={tuariaLogo}
           side="right"
         >
-          Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
+          <p>
+            Developed communication tools that focus on security and privacy
+          </p>
+          <p>
+            Built the analytic system from scratch using Google Tag Manager and Google Analytics
+          </p>
+          <p>
+            Implemented and developed React Components and the integration with the backend which runs in Apollo GraphQL
+          </p>
+
         </TimelineBlock>
         <TimelineBlock
           date='2018'
@@ -108,22 +109,21 @@ export const HomeCareer: React.FC = () => {
             
         </TimelineBlock>
         <TimelineBlock
-          date='2021'
-          title='TAURIA'
-          subTitle='SOFTWARE ENGINEER'
-          img={tuariaLogo}
+          date='2017'
+          title='PHILIPPINE GENOME CENTER'
+          subTitle='BIOINFORMATICS'
+          img={upLogo}
           side="right"
         >
-          <p>
-            Developed communication tools that focus on security and privacy
-          </p>
-          <p>
-            Built the analytic system from scratch using Google Tag Manager and Google Analytics
-          </p>
-          <p>
-            Implemented and developed React Components and the integration with the backend which runs in Apollo GraphQL
-          </p>
-
+          Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
+        </TimelineBlock>
+        <TimelineBlock
+          date='2014'
+          title='UNIVERSITY OF THE PHILIPPINES'
+          subTitle='BS IN COMPUTER SCIENCE'
+          img={upLogo}
+        >
+          Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
         </TimelineBlock>
 			</S.TimelineContainer>
     </S.HomeCareer>
