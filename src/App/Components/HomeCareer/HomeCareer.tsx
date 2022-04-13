@@ -65,7 +65,6 @@ export const HomeCareer: React.FC = () => {
           title='TAURIA'
           subTitle='SOFTWARE ENGINEER'
           img={tuariaLogo}
-          side="right"
         >
           <p>
             Developed communication tools that focus on security and privacy
@@ -83,6 +82,7 @@ export const HomeCareer: React.FC = () => {
           title='FREELANCER.COM'
           subTitle='SOFTWARE ENGINEER'
           img={freelancerLogo}
+          side="right"
         >
           Mainly worked on two main Products. Freelancer.com and Freightlancer.com.
               <p>
@@ -113,7 +113,6 @@ export const HomeCareer: React.FC = () => {
           title='PHILIPPINE GENOME CENTER'
           subTitle='BIOINFORMATICS'
           img={upLogo}
-          side="right"
         >
           Worked on creating a pipeline to integrate tools and have a good end to end experience for scientist with little to no experience with metagenomic tools built in linux system.
         </TimelineBlock>
@@ -122,6 +121,7 @@ export const HomeCareer: React.FC = () => {
           title='UNIVERSITY OF THE PHILIPPINES'
           subTitle='BS IN COMPUTER SCIENCE'
           img={upLogo}
+          side="right"
         >
           Studied computer science, the basic of software engineering, machine learning and web development. I get to enjoy my uni life while hiking, playing volleyball and staying in beach the whole school year!
         </TimelineBlock>
