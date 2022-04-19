@@ -10,10 +10,13 @@ export const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const tagManagerArgs = {
-      gtmId: "GTM-MGFSJC7",
-    };
-    TagManager.initialize(tagManagerArgs);
+    console.log(process.env.REACT_APP_GMT_ID);
+    if (process.env.REACT_APP_GMT_ID) {
+      const tagManagerArgs = {
+        gtmId: process.env.REACT_APP_GMT_ID,
+      };
+      TagManager.initialize(tagManagerArgs);
+    }
   });
 
   setTimeout(() => setIsLoading(false), 2000);
