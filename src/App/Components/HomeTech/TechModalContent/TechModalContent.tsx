@@ -1,5 +1,5 @@
-import React from 'react';
-import * as S from './TechModalContent.styles';
+import React from "react";
+import * as S from "./TechModalContent.styles";
 
 export interface TechModalContentProps {
   logo: React.ReactNode;
@@ -16,13 +16,9 @@ export const TechModalContent: React.FC<TechModalContentProps> = ({
     <S.TechModalContent>
       <S.Header>
         {logo}
-        <S.HeaderText>
-          {title}
-        </S.HeaderText>  
+        <S.HeaderText>{title}</S.HeaderText>
       </S.Header>
-      <S.Body>
-        {content}
-      </S.Body>
+      <S.Body>{content}</S.Body>
     </S.TechModalContent>
-  )
-}
+  );
+};

@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 const fadeIn = keyframes`
   0% {
@@ -7,7 +7,7 @@ const fadeIn = keyframes`
   100% {
     opacity: 1;
   }
-`
+`;
 
 export const Modal = styled.div`
   z-index: 1000;
@@ -21,15 +21,15 @@ export const Modal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: ${fadeIn} .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: ${fadeIn} 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
   &:after {
     content: "x";
     position: absolute;
-    right: .5em;
-    top: .5em;
+    right: 0.5em;
+    top: 0.5em;
     font-size: 3em;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
   }
 `;
@@ -42,5 +42,5 @@ export const Container = styled.div`
   /* height: 100px; */
   max-width: 50em;
   max-height: 60em;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 `;

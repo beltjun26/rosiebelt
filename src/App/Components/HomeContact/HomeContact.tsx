@@ -1,19 +1,16 @@
-import React from 'react';
-import * as S from './HomeContact.styles';
+import React from "react";
+import * as S from "./HomeContact.styles";
 
-import { ReactComponent as GithubLogo } from 'App/Assets/socials/github.svg';
-import { ReactComponent as InstagramLogo } from 'App/Assets/socials/instagram.svg';
-import { ReactComponent as LinkedInLogo } from 'App/Assets/socials/linkedin.svg';
-import { ReactComponent as ContactLogo } from 'App/Assets/socials/phone.svg';
-import { ReactComponent as EmailLogo } from 'App/Assets/socials/email.svg';
-
+import { ReactComponent as GithubLogo } from "App/Assets/socials/github.svg";
+import { ReactComponent as InstagramLogo } from "App/Assets/socials/instagram.svg";
+import { ReactComponent as LinkedInLogo } from "App/Assets/socials/linkedin.svg";
+import { ReactComponent as ContactLogo } from "App/Assets/socials/phone.svg";
+import { ReactComponent as EmailLogo } from "App/Assets/socials/email.svg";
 
 export const HomeContact: React.FC = () => {
   return (
     <S.HomeContact>
-      <S.Header>
-        CONTACT ME
-      </S.Header>
+      <S.Header>CONTACT ME</S.Header>
       <S.SocialsContainer>
         <S.Social>
           <S.SocialLogo>
@@ -43,9 +40,7 @@ export const HomeContact: React.FC = () => {
           <S.SocialLogo>
             <ContactLogo />
           </S.SocialLogo>
-          <S.Link href="tel:+639100672885">
-           +639100672885
-          </S.Link>
+          <S.Link href="tel:+639100672885">+639100672885</S.Link>
         </S.Social>
         <S.Social>
           <S.SocialLogo>
@@ -57,5 +52,5 @@ export const HomeContact: React.FC = () => {
         </S.Social>
       </S.SocialsContainer>
     </S.HomeContact>
-  )
-}
+  );
+};

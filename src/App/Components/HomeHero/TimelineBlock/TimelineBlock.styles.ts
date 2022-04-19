@@ -1,7 +1,7 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 export interface TimelineBlockProps {
-  side?: 'right' | 'left';
+  side?: "right" | "left";
 }
 
 const textFocusIn = keyframes`
@@ -13,7 +13,7 @@ const textFocusIn = keyframes`
     filter: blur(0px);
     opacity: 1;
   }
-`
+`;
 
 const scaleIn = keyframes`
  0% {
@@ -24,15 +24,15 @@ const scaleIn = keyframes`
     transform: scale(1);
     opacity: 1;
   }
-`
-
+`;
 
 export const TimelineBlock = styled.div<TimelineBlockProps>`
   position: relative;
   width: 100%;
   display: flex;
-  text-align: ${props => props.side === 'right' ? 'left' : 'right'};
-  flex-direction: ${props => props.side === 'right' ? 'row-reverse' : 'row'};
+  text-align: ${(props) => (props.side === "right" ? "left" : "right")};
+  flex-direction: ${(props) =>
+    props.side === "right" ? "row-reverse" : "row"};
 
   @media (max-width: 768px) {
     text-align: left;
@@ -48,17 +48,16 @@ export const TimelineImg = styled.img`
   margin: 0 auto;
   width: 4em;
   visibility: hidden;
-  /* height: 64px; */
-  box-shadow: 0 0 0 .3em #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 0.3em #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 
   @media (max-width: 768px) {
-    /* right: none; */
     margin: 0;
   }
 
   .animate > & {
     visibility: visible;
-    animation: ${scaleIn} 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: ${scaleIn} 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
 `;
 
@@ -69,7 +68,8 @@ export const TimelineContent = styled.div`
 
   .animate > & {
     visibility: visible;
-    animation: ${textFocusIn} 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) .2s both;
+    animation: ${textFocusIn} 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.2s
+      both;
   }
 
   @media (max-width: 768px) {
@@ -90,8 +90,7 @@ export const ContentTitle = styled.div`
   font-size: 1.6em;
   font-weight: 700;
   letter-spacing: 0.12em;
-  margin-bottom: .3em;
-
+  margin-bottom: 0.3em;
 `;
 
 export const ContentSubTitle = styled.div`

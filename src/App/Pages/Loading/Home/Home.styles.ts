@@ -1,11 +1,10 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 // import { ReactComponent as MountainSingleSvg } from 'App/Assets/logo/mountainSingle.svg';
 // import { ReactComponent as MountainRangeSvg } from 'App/Assets/logo/mountainRange.svg';
 
-
 export const Home = styled.div`
   overflow: hidden;
-`
+`;
 
 // export const HeaderContainer = styled.div`
 //   position: relative;
