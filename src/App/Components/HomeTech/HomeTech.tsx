@@ -87,6 +87,7 @@ export const HomeTech: React.FC = () => {
         </S.Header>
         <S.BalloonsContainer>
           <S.HouseWithString />
+          {/* Figure out how to save these data to JSON with the image asset needed */}
           <S.Balloon left={0} top={0} onClick={() => openModal('angular', <S.LogoAngular />)}>
             <S.LogoAngular />
           </S.Balloon>
