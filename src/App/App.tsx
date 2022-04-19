@@ -10,7 +10,6 @@ export const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    console.log(process.env.REACT_APP_GMT_ID);
     if (process.env.REACT_APP_GMT_ID) {
       const tagManagerArgs = {
         gtmId: process.env.REACT_APP_GMT_ID,
