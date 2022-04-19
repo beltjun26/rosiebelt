@@ -58,21 +58,18 @@ export const TimelineImg = styled.img`
 
   .animate > & {
     visibility: visible;
-    animation: ${scaleIn} 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .2s both;
+    animation: ${scaleIn} 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 `;
 
 export const TimelineContent = styled.div`
-  /* width: 45%; */
-  /* flex-direction: column; */
-  /* display: flex; */
   width: 45%;
   margin-bottom: 8em;
   visibility: hidden;
 
   .animate > & {
     visibility: visible;
-    animation: ${textFocusIn} 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) .4s both;
+    animation: ${textFocusIn} 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) .2s both;
   }
 
   @media (max-width: 768px) {
