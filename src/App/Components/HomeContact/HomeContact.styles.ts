@@ -27,6 +27,7 @@ export const SocialsContainer = styled.div`
 
 export const Social = styled.div`
   display: flex;
+  align-items: center;
   margin-bottom: 2em;
 `;
 
@@ -36,10 +37,14 @@ export const SocialLogo = styled.div`
 `;
 
 export const Link = styled.a`
+  text-decoration: none;
   font-size: 1.9em;
   font-weight: 400;
-  line-height: 28px;
   letter-spacing: 0.12em;
-  text-align: left;
+  text-align: center;
   color: rgba(111, 151, 181, 1);
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
