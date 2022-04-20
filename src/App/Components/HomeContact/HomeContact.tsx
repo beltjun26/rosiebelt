@@ -12,43 +12,35 @@ export const HomeContact: React.FC = () => {
     <S.HomeContact>
       <S.Header>CONTACT ME</S.Header>
       <S.SocialsContainer>
-        <S.Social>
+        <S.Social href="https://github.com/beltjun26" target="_blank">
           <S.SocialLogo>
             <GithubLogo />
           </S.SocialLogo>
-          <S.Link href="https://github.com/beltjun26" target="_blank">
-            github.com/beltjun26
-          </S.Link>
+          <S.Text>github.com/beltjun26</S.Text>
         </S.Social>
-        <S.Social>
+        <S.Social href="https://www.instagram.com/beltjun/" target="_blank">
           <S.SocialLogo>
             <InstagramLogo />
           </S.SocialLogo>
-          <S.Link href="https://www.instagram.com/beltjun/" target="_blank">
-            instagram.com/beltjun
-          </S.Link>
+          <S.Text>instagram.com/beltjun</S.Text>
         </S.Social>
-        <S.Social>
+        <S.Social href="https://www.linkedin.com/in/rjabisado/" target="_blank">
           <S.SocialLogo>
             <LinkedInLogo />
           </S.SocialLogo>
-          <S.Link href="https://www.linkedin.com/in/rjabisado/" target="_blank">
-            linkedin.com/in/rjabisado
-          </S.Link>
+          <S.Text>linkedin.com/in/rjabisado</S.Text>
         </S.Social>
-        <S.Social>
+        <S.Social href="tel:+639100672885">
           <S.SocialLogo>
             <ContactLogo />
           </S.SocialLogo>
-          <S.Link href="tel:+639100672885">+639100672885</S.Link>
+          <S.Text>+639100672885</S.Text>
         </S.Social>
-        <S.Social>
+        <S.Social href="mailto:beltjunabisado@gmail.com">
           <S.SocialLogo>
             <EmailLogo />
           </S.SocialLogo>
-          <S.Link href="mailto:beltjunabisado@gmail.com">
-            beltjunabisado@gmail.com
-          </S.Link>
+          <S.Text>beltjunabisado@gmail.com</S.Text>
         </S.Social>
       </S.SocialsContainer>
     </S.HomeContact>

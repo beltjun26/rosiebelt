@@ -25,10 +25,16 @@ export const SocialsContainer = styled.div`
   max-width: 40em;
 `;
 
-export const Social = styled.div`
+export const Social = styled.a`
   display: flex;
   align-items: center;
+  text-decoration: none;
   margin-bottom: 2em;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(111, 151, 181, 1);
+  }
 `;
 
 export const SocialLogo = styled.div`
@@ -36,15 +42,10 @@ export const SocialLogo = styled.div`
   margin-right: 3em;
 `;
 
-export const Link = styled.a`
-  text-decoration: none;
+export const Text = styled.p`
   font-size: 1.9em;
   font-weight: 400;
   letter-spacing: 0.12em;
   text-align: center;
   color: rgba(111, 151, 181, 1);
-
-  &:hover {
-    text-decoration: underline;
-  }
 `;
