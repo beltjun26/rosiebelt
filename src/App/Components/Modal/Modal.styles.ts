@@ -39,7 +39,6 @@ export const Container = styled.div`
   padding: 2em;
   position: relative;
   width: 100em;
-  /* height: 100px; */
   max-width: 50em;
   max-height: 60em;
   background-color: #e5e5e5;

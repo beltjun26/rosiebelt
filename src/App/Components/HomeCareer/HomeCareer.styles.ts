@@ -8,10 +8,7 @@ export interface TimelineBlockProps {
 }
 
 export const HomeCareer = styled.div`
-  /* display: flex; */
-  /* justify-content: center; */
   color: white;
-  /* height: 100vh; */
   background-color: rgba(111, 151, 181, 1);
   padding-bottom: 10em;
 `;
@@ -65,9 +62,6 @@ export const TimelineContainer = styled.div`
 `;
 
 export const TimelineContent = styled.div`
-  /* width: 45%; */
-  /* flex-direction: column; */
-  /* display: flex; */
   width: 45%;
   margin-bottom: 8em;
 

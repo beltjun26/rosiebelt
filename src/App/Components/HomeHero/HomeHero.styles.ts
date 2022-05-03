@@ -134,14 +134,14 @@ export const ParallaxMountainSingle = styled(Parallax)`
   width: 76em;
   position: absolute;
   left: -69em;
-  bottom: -30em;
+  top: -10em;
 `;
 
 export const ParallaxMountainRange = styled(Parallax)`
   width: 110em;
   position: absolute;
   right: -65em;
-  bottom: -53em;
+  top: 21em;
 `;
 export const MountainSingle = styled(MountainSingleSvg)`
   fill: rgba(111, 151, 181, 1);
