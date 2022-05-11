@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { ReactComponent as WaveSvg } from "App/Assets/logo/oceanWave.svg";
 import { ReactComponent as BubbleSvg } from "App/Assets/logo/bubble.svg";
 import { Parallax } from "react-scroll-parallax";
@@ -121,11 +121,6 @@ export const Ocean = styled.div`
   margin-bottom: 5em;
   margin-left: auto;
   margin-right: auto;
-`;
-
-const waveAnimation = keyframes`
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
 `;
 
 export interface WaveContainerProps {
