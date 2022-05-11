@@ -106,12 +106,10 @@ export const TimelineImg = styled.img`
   right: 0;
   margin: 0 auto;
   width: 4em;
-  /* height: 64px; */
   box-shadow: 0 0 0 0.3em #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 
   @media (max-width: 768px) {
-    /* right: none; */
     margin: 0;
   }
 `;
@@ -142,8 +140,6 @@ export const WaveContainer = styled(Parallax)<WaveContainerProps>`
   left: ${(props) => props.left}em;
   bottom: ${(props) => props.bottom}em;
   right: ${(props) => props.right}em;
-  /* animation: ${waveAnimation} 1s linear infinite alternate; */
-  /* animation-delay: {$randomStart}; */
 `;
 
 export interface WaveProps {
