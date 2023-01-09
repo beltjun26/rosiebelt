@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./HomeCareer.styles";
 import upLogo from "App/Assets/img/UPLogo.png";
 import tuariaLogo from "App/Assets/img/tauriaLogo.png";
+import coverio from "App/Assets/img/coverio.png";
 import freelancerLogo from "App/Assets/img/freelancerLogo.png";
 import { TimelineBlock } from "../HomeHero/TimelineBlock/TimelineBlock";
 
@@ -59,6 +60,28 @@ export const HomeCareer: React.FC = () => {
       </S.Ocean>
       <S.Title>CAREER</S.Title>
       <S.TimelineContainer>
+        <TimelineBlock
+          side="right"
+          date="2022"
+          title="COVERIO"
+          subTitle="SOFTWARE ENGINEER"
+          img={coverio}
+        >
+          <p>
+            I am currently working on building a payroll application using React
+            and integrating it with web3 technology.
+          </p>
+          <p>
+            My responsibilities include designing and implementing new features,
+            troubleshooting and debugging issues, and collaborating with the
+            rest of the development team.
+          </p>
+          <p>
+            I have also gained experience in backend development, including
+            using Express to build APIs, integrating Google Analytics to track
+            performance, and using TypeORM to manage database interactions.
+          </p>
+        </TimelineBlock>
         <TimelineBlock
           date="2021"
           title="TAURIA"
