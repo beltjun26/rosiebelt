@@ -15,9 +15,15 @@ export const HomeAboutMe: React.FC = () => {
       <S.HeaderContainer>
         <S.Header>ABOUT ME</S.Header>
         <S.HeaderText>
-          I really love traveling. As a software engineer, I always face my
-          monitory almost 10 hours a day. To keep my sanity, I make sure to do
-          hiking, biking and spending the afternoon watching the sunset.
+          Hi, I&apos;m Belt. I&apos;m passionate about programming and I love
+          the challenge of problem-solving and creating new things. When
+          I&apos;m not coding, I love going out and exploring the world around
+          me. I enjoy hiking in the mountains and visiting other beautiful
+          natural places. I believe that every experience is a chance to learn
+          and grow, whether it&apos;s through technology or by getting out of my
+          comfort zone and trying new things. I&apos;m always on the go, seeking
+          new adventures and challenges. I believe that life is about the and
+          and I&apos;m excited to see where my passions will take me.
         </S.HeaderText>
       </S.HeaderContainer>
       <S.Carousel>
